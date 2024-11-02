@@ -1,0 +1,123 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: black;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #A50000; /* Guinda */
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+/* Tarjetas de libros */
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.card-text {
+  color: #A50000; /* Guinda */
+}
+
+/* Botones */
+.btn {
+  background-color: #A50000; /* Guinda */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos adicionales */
+.top-seller {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.top-seller h2 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.book-card {
+  background-color: #f8f8f8; /* Fondo claro para las tarjetas */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  transition: box-shadow 0.3s;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
